@@ -1,0 +1,17 @@
+node_modules
+.pnpm-store
+.next
+out
+.vercel
+.turbo
+coverage
+
+# Local environment and runtime files (keep .env.example tracked)
+.env
+.env.*
+!.env.example
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
