@@ -7,9 +7,11 @@
 :root { --font-display: "Playfair Display"; --font-sans: "DM Sans"; }
 * { border-color: rgb(16 42 51 / 0.12); }
 html { scroll-behavior: smooth; }
-body { background: #f8f3ea; color: #102a33; font-family: var(--font-sans), Arial, sans-serif; }
-::selection { background: #c65b3c; color: white; }
+body { background: #F7F3EA; color: #3F6ECD; font-family: var(--font-sans), Arial, sans-serif; }
+::selection { background: #F2C14E; color: #3F6ECD; }
 .eyebrow { @apply text-xs font-bold uppercase tracking-[0.2em] text-clay; }
 .display-title { @apply font-display text-4xl leading-[1.08] tracking-[-0.035em] text-ink sm:text-5xl lg:text-6xl; }
 .grain { background-image: radial-gradient(rgba(255,255,255,.16) .65px, transparent .65px); background-size: 4px 4px; }
+.hero-grid { background-image: linear-gradient(rgba(63, 110, 205, .09) 1px, transparent 1px), linear-gradient(90deg, rgba(63, 110, 205, .09) 1px, transparent 1px); background-size: 30px 30px; mask-image: linear-gradient(90deg, black 0%, transparent 75%); }
+.hero-grid-light { background-image: linear-gradient(rgba(247, 243, 234, .16) 1px, transparent 1px), linear-gradient(90deg, rgba(247, 243, 234, .16) 1px, transparent 1px); background-size: 30px 30px; mask-image: linear-gradient(90deg, black 0%, transparent 75%); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }

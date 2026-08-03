@@ -31,7 +31,7 @@ export function ConsultationForm() {
   }
 
   return (
-    <form onSubmit={submitForm} className="rounded-3xl bg-white p-6 shadow-soft sm:p-8" noValidate>
+    <form onSubmit={submitForm} className="rounded-3xl bg-warmCream p-6 shadow-soft sm:p-8" noValidate>
       <div className="grid gap-5 sm:grid-cols-2">
         <div><FieldLabel htmlFor="name">Name</FieldLabel><Input id="name" name="name" autoComplete="name" required placeholder="Your name" /></div>
         <div><FieldLabel htmlFor="email">Work email</FieldLabel><Input id="email" name="email" type="email" autoComplete="email" required placeholder="you@organization.org" /></div>
@@ -46,7 +46,7 @@ export function ConsultationForm() {
         <p className="text-xs leading-5 text-ink/60">We will only use your details to respond to this inquiry.</p>
         <Button type="submit" disabled={status === "loading"}>{status === "loading" ? <><LoaderCircle className="animate-spin" size={17} /> Sending</> : <><Send size={16} /> Send inquiry</>}</Button>
       </div>
-      {message && <p className={`mt-5 rounded-xl px-4 py-3 text-sm ${status === "success" ? "bg-sage/35 text-moss" : "bg-clay/10 text-[#963e29]"}`} role="status">{message}</p>}
+      {message && <p className={`mt-5 rounded-xl px-4 py-3 text-sm ${status === "success" ? "bg-sage/35 text-cobalt" : "bg-goldenYellow/20 text-cobalt"}`} role="status">{message}</p>}
     </form>
   );
 }

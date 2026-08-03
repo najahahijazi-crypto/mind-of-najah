@@ -6,7 +6,7 @@ export function FieldLabel({ className, ...props }: React.LabelHTMLAttributes<HT
 }
 
 const baseField =
-  "w-full rounded-xl border border-ink/15 bg-white px-4 py-3 text-ink outline-none transition placeholder:text-ink/45 focus:border-clay focus:ring-2 focus:ring-clay/20";
+  "w-full rounded-xl border border-ink/15 bg-warmCream px-4 py-3 text-ink outline-none transition placeholder:text-ink/45 focus:border-clay focus:ring-2 focus:ring-clay/20";
 
 export function Input({ className, ...props }: React.InputHTMLAttributes<HTMLInputElement>) {
   return <input className={cn(baseField, className)} {...props} />;

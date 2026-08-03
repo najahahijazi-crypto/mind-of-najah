@@ -6,19 +6,25 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#102A33",
-        cream: "#F8F3EA",
-        clay: "#C65B3C",
-        sage: "#B9C9B2",
-        moss: "#466051",
-        sand: "#E7D4BD",
+        // Mind of Najah brand palette — semantic aliases use these exact colors.
+        ink: "#3F6ECD", // Cobalt
+        cream: "#F7F3EA", // Warm Cream
+        clay: "#F2C14E", // Golden Yellow
+        sage: "#A8C3A0",
+        sand: "#9EA8E8", // Periwinkle
+        cobalt: "#3F6ECD",
+        seafoam: "#A9DCD2",
+        chartreuse: "#BFD64A",
+        goldenYellow: "#F2C14E",
+        periwinkle: "#9EA8E8",
+        warmCream: "#F7F3EA",
       },
       fontFamily: {
         display: ["var(--font-display)", "Georgia", "serif"],
         sans: ["var(--font-sans)", "Arial", "sans-serif"],
       },
       boxShadow: {
-        soft: "0 24px 60px -28px rgba(16, 42, 51, 0.28)",
+        soft: "0 24px 60px -28px rgba(38, 58, 113, 0.28)",
       },
       backgroundImage: {
         grain: "radial-gradient(rgba(16, 42, 51, 0.10) 0.65px, transparent 0.65px)",
