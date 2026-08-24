@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Mind of Najah",
   description:
-    "A founder-led education consultancy helping K–12 leaders create clear, engaging, and purposeful learning experiences.",
+    "Mind of Najah creates authentic learning experiences that integrate social-emotional development, cultural responsiveness, and purposeful instructional design.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://mindofnajah.com",
   navigation: [
     { href: "/services", label: "Services" },
